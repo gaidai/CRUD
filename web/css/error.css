@@ -1,0 +1,22 @@
+body{
+    background-color:  deepskyblue;
+}
+.error{
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+.home {
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: 0.2s;
+    margin: 1rem 5rem;
+    border: 2px solid crimson;
+}
+.home :hover {
+    transform: scale(0.5);
+}
