@@ -6,10 +6,9 @@ $('.btn-delete').click(function(event) {
     if (id === undefined){      
         return false;
     }; 
-    var url = "deleteEmployee?id="+id;
     $.ajax({
         type: "POST",
-        url: url,
+        url: "deleteEmployee?id="+id,
         success: function(data){
             $('.active-line').remove();
             $('.crud-nav').removeClass('active-nav');
@@ -50,7 +49,7 @@ function emailValidate(){
                 message.fadeIn(200);
                 message.children('.notification-message').text("  Connection error !");
                 isValid();
-                alert("Server-side exception fail", "Try again");
+                alert("Server exception ",error.statusText);
                 return false;
             });
         }else{
@@ -199,7 +198,7 @@ function departmentValidate(){
         input.addClass('not-valid');
         message.fadeIn(200);
         message.children('.notification-message').text("Can't check this ID !")
-        alert("Can't check this department ID !", error);
+        alert("Can't check this department ID !", error.statusText);
         isValid();
     });
 };
