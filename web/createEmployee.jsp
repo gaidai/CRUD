@@ -44,7 +44,7 @@
                             <span>email</span>
                         </div>
                         <div class="notification-input">
-                            <div class="notification-message ">&nbsp; email: first 3 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
+                            <div class="notification-message ">&nbsp; Invalid Email, check it! </div>
                         </div>
                     </div>
                     <div class="row input-line">
@@ -53,7 +53,7 @@
                             <span>birthdate</span>
                         </div>
                         <div class="notification-input">
-                            <div class="notification-message ">&nbsp; birthdate: first 3 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
+                            <div class="notification-message ">&nbsp; birthdate pattern: dd-mm-yyyy .</div>
                         </div>
                     </div>
                     <button type="submit" disabled class="command">

@@ -27,7 +27,7 @@ function emailValidate(){
         // Compare value with old name , for Update page.
         if( $('.main-container').data('email') != input.val() ) {
             //Check if current value is used for another department
-            isExists(input).done(function (data) {
+          isEmailExists(input).done(function (data) {
                 console.log(data);//print
                 if (!(data === "true")) {
                     input.removeClass('not-valid');
@@ -39,7 +39,7 @@ function emailValidate(){
                     input.addClass('not-valid');
                     message.fadeIn(200);
                     // Compare value with old name , for Update page.
-                    message.children('.notification-message').text("  This name is already in use !");
+                    message.children('.notification-message').text("  This email is already in use !");
                     isValid();
 
                     return false;
@@ -62,17 +62,17 @@ function emailValidate(){
     }else{
         input.addClass('not-valid');
         message.fadeIn(200);
-        message.children('.notification-message').text("  Department name: first 3 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space . ");
+        message.children('.notification-message').text(" Invalid email! Check it! ");
         isValid();
         return false;
     };
 };
-function isExists(input){
+function isEmailExists(input){
     console.log($('input[name=email]').val());
 
     return $.ajax({
         type: "GET",
-        url: 'checkEmployee?email='+input.val(),
+        url: 'checkEmail?email='+input.val(),
         success: function (data) {
         },
         error: function(xhr, status, error) {
@@ -93,7 +93,7 @@ function isDate(ExpiryDate) {
     if (ExpiryDate.length !== 10) {
         return false;
     }
-    // third and sixth character should be '/'
+    // third and sixth character should be '-'
     if (ExpiryDate.substring(2, 3) !== '-' || ExpiryDate.substring(5, 6) !== '-') {
         return false;
     }
@@ -117,8 +117,7 @@ function isDate(ExpiryDate) {
         objDate.getDate() !== day ||
         today.getFullYear()-16 < objDate.getFullYear() ||
         today.getFullYear()-100 > objDate.getFullYear()
-    )
-    {
+    ){
         return false;
     }
     // otherwise return true
@@ -166,22 +165,11 @@ $('input[name=lastname] ').on('focusin blur input',function(){
     };
     isValid();
 });
-function isDepartment(input){
-    return $.ajax({
-        type: "POST",
-        url: 'checkDepartment?id='+input.val(),
-        success: function(data){
-        },
-        error: function(xhr, status, error) {
-            alert("Can't check this department ID from isDepartment!", error);
-        }
-    });
-};
 function departmentValidate(){
     var input = $('input[name=department]');
     var message = input.parent().next();
     // Compare value with old name , for Update page.
-        //Check if current value is used for another department
+     //Check if current value is used for another department
     isDepartment(input).done(function (data) {
         console.log(data);
         if (data === "true") {
@@ -191,6 +179,7 @@ function departmentValidate(){
         } else {
             input.addClass('not-valid');
             message.fadeIn(200);
+
             message.children('.notification-message').text(" This Department ID is not exists !");
             isValid();
         }
@@ -201,6 +190,17 @@ function departmentValidate(){
         alert("Can't check this department ID !", error.statusText);
         isValid();
     });
+};
+function isDepartment(input){
+  return $.ajax({
+    type: "POST",
+    url: 'checkDepartment?id='+input.val(),
+    success: function(data){
+    },
+    error: function(xhr, status, error) {
+      alert("Can't check this department ID from isDepartment!", error);
+    }
+  });
 };
 $('input[name=department] ').on('focusin blur input',function(){
     var input = $(this);
@@ -219,6 +219,7 @@ $('input[name=department] ').on('focusin blur input',function(){
         isValid();
     };
 });
+// Disable submit button , if one of values is invalid
 function isValid() {
     var btn = $('button.command');
     if( $('input.not-valid').length>0 ){

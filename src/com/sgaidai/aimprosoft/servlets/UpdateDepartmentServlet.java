@@ -24,6 +24,7 @@ public class UpdateDepartmentServlet extends HttpServlet {
             response.sendError(response.SC_BAD_REQUEST, "ID can't be null or empty.");
         }else {
             try {
+                // get jsp page with updating form
                 Connection con = (Connection) getServletContext().getAttribute("DBConnection");
                 DepartmentDAO dao = new DepartmentDAO(con);
                 name = dao.findById(id);
@@ -50,7 +51,6 @@ public class UpdateDepartmentServlet extends HttpServlet {
             errorMsg = "ID can't be null or empty.";
         };
         if(errorMsg != null){
-//            response.sendError(response.SC_BAD_REQUEST, errorMsg);
             response.sendError(HttpServletResponse.SC_BAD_REQUEST, errorMsg);
         }else {
             try {

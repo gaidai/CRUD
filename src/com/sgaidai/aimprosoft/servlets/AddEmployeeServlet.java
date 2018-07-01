@@ -22,7 +22,7 @@ import java.util.Date;
 public class AddEmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-
+    // Get createEmployee form for selected Department
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.setCharacterEncoding("UTF-8");
         String id = request.getParameter("id");

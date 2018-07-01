@@ -11,8 +11,8 @@ import java.io.IOException;
 import java.sql.Connection;
 
 
-@WebServlet("/checkEmployee")
-public class CheckEmployeeServlet extends HttpServlet {
+@WebServlet("/checkEmail")
+public class CheckEmailServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

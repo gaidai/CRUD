@@ -23,6 +23,7 @@ public class CheckDepartmentServlet extends HttpServlet {
             response.sendError(response.SC_BAD_REQUEST, "Name can't be null or empty.");
         }else {
             try {
+                // Check that department name is exists
                 Connection con = (Connection) getServletContext().getAttribute("DBConnection");
                 DepartmentDAO dao = new DepartmentDAO(con);
                 boolean check = !dao.checkName(name).isEmpty();

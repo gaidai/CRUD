@@ -33,6 +33,7 @@ public class UpdateEmployeeServlet extends HttpServlet {
             response.sendError(response.SC_BAD_REQUEST, errorMsg);
         }else {
             try {
+                // get jsp page with updating form
                 Connection con = (Connection) getServletContext().getAttribute("DBConnection");
                 EmployeeDAO dao = new EmployeeDAO(con);
                 //Get current fields of Employee
