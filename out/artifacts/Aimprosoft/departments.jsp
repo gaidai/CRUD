@@ -50,12 +50,12 @@
                 </c:choose>
             </div>
             <div class="col-1">
-                <a href="createDepartment.html" class="crud-link"><div class="btn-add" data-toggle="tooltip" data-placement="right" title="Create a new department">Add</div></a>
+                <a href="createDepartment.html" class="crud-link"><div class="btn-add" data-toggle="tooltip" data-placement="right" title="Добавить">Add</div></a>
 
                 <div class="crud-nav">
-                    <a class="crud-link link-list"><div class="btn-list">List</div></a>
-                    <a class="crud-link link-edit"><div  class="btn-edit">Edit</div></a>
-                    <a class="crud-link link-delete"><div class="btn-delete">Delete</div></a>
+                    <a class="crud-link link-list"><div class="btn-list" data-toggle="tooltip" data-placement="right" title="Список сотрудников">List</div></a>
+                    <a class="crud-link link-edit"><div  class="btn-edit" data-toggle="tooltip" data-placement="right" title="Редактировать">Edit</div></a>
+                    <a class="crud-link link-delete"><div class="btn-delete" data-toggle="tooltip" data-placement="right" title="Удалить">Delete</div></a>
 
                 </div>
 

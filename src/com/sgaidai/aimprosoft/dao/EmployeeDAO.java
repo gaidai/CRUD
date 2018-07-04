@@ -9,24 +9,21 @@ import java.util.List;
 
 public class EmployeeDAO {
 
-    Connection con;
+    private Connection con;
 
     public EmployeeDAO(Connection con) {
         this.con = con;
     }
     public void create(Employee emp) throws ServletException {
          PreparedStatement ps = null;
-
-//        emp.getBirthdate();
-//        java.util.Date utilDate = emp.getBirthdate();
-//        java.sql.Date sqlDate = new java.sql.Date(emp.getBirthdate().getTime());
          try {
-             ps = con.prepareStatement("INSERT INTO EMPLOYEE (firstname,lastname, email, birthdate, department ) VALUES (?,?,?,?,?)");
+             ps = con.prepareStatement("INSERT INTO EMPLOYEE (firstname,lastname, email, salary, birthdate, department ) VALUES (?,?,?,?,?,?)");
              ps.setString(1, emp.getFirstname());
              ps.setString(2, emp.getLastname());
              ps.setString(3, emp.getEmail());
-             ps.setDate(4, new java.sql.Date(emp.getBirthdate().getTime()));
-             ps.setInt(5, emp.getDepartment());
+             ps.setInt(4, emp.getSalary());
+             ps.setDate(5, new java.sql.Date(emp.getBirthdate().getTime()));
+             ps.setInt(6, emp.getDepartment());
              ps.execute();
 
          } catch (SQLException e) {
@@ -72,6 +69,7 @@ public class EmployeeDAO {
                     rs.getString("firstname"),
                     rs.getString("lastname"),
                     rs.getString("email"),
+                    rs.getInt("salary"),
                     rs.getDate("birthdate"),
                     rs.getInt("department"),
                     rs.getDate("created"),
@@ -94,14 +92,15 @@ public class EmployeeDAO {
     public void update(Employee emp) throws ServletException {
         PreparedStatement ps = null;
         try {
-            ps = con.prepareStatement("UPDATE EMPLOYEE SET FIRSTNAME = ?,LASTNAME = ?, EMAIL = ?, BIRTHDATE = ?, DEPARTMENT = ?  WHERE ID = ?");
+            ps = con.prepareStatement("UPDATE EMPLOYEE SET FIRSTNAME = ?,LASTNAME = ?, EMAIL = ?, SALARY = ?, BIRTHDATE = ?, DEPARTMENT = ?  WHERE ID = ?");
 
             ps.setString(1, emp.getFirstname());
             ps.setString(2, emp.getLastname());
             ps.setString(3, emp.getEmail());
-            ps.setDate(4, new java.sql.Date(emp.getBirthdate().getTime()));
-            ps.setInt(5, emp.getDepartment());
-            ps.setInt(6, emp.getId());
+            ps.setInt(4, emp.getSalary());
+            ps.setDate(5, new java.sql.Date(emp.getBirthdate().getTime()));
+            ps.setInt(6, emp.getDepartment());
+            ps.setInt(7, emp.getId());
             ps.execute();
 
         } catch (SQLException e) {
@@ -155,6 +154,7 @@ public class EmployeeDAO {
                         rs.getString("firstname"),
                         rs.getString("lastname"),
                         rs.getString("email"),
+                        rs.getInt("salary"),
                         rs.getDate("birthdate"),
                         rs.getInt("department"),
                         rs.getDate("created"),

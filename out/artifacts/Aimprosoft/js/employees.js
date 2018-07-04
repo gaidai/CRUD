@@ -219,6 +219,26 @@ $('input[name=department] ').on('focusin blur input',function(){
         isValid();
     };
 });
+$('input[name=salary] ').on('focusin blur input',function(){
+  var input = $(this);
+  var salary = parseInt(input.val());
+  var message = input.parent().next();
+  if( isNaN(salary) ){
+    input.val('');
+    input.addClass('not-valid');
+    message.fadeIn(200);
+  }else if( salary < 100){
+    input.val(salary);
+    input.addClass('not-valid');
+    message.fadeIn(200);
+    isValid();
+  }else{
+    input.val(salary);
+    input.removeClass('not-valid');
+    message.fadeOut(200);
+    isValid();
+  };
+});
 // Disable submit button , if one of values is invalid
 function isValid() {
     var btn = $('button.command');

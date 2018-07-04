@@ -40,6 +40,7 @@ public class UpdateEmployeeServlet extends HttpServlet {
                 emp = dao.findById(id);
                 request.setAttribute("departmentId", emp.getDepartment());
                 request.setAttribute("id", id);
+                request.setAttribute("salary", emp.getSalary());
                 request.setAttribute("firstname", emp.getFirstname());
                 request.setAttribute("lastname", emp.getLastname());
                 request.setAttribute("email", emp.getEmail());
@@ -57,6 +58,7 @@ public class UpdateEmployeeServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         String errorMsg = null;
         String email = request.getParameter("email");
+        int salary = Integer.parseInt(request.getParameter("salary"));
         String firstname = request.getParameter("firstname");
         String lastname = request.getParameter("lastname");
         int department = Integer.parseInt(request.getParameter("department"));
@@ -71,6 +73,9 @@ public class UpdateEmployeeServlet extends HttpServlet {
         }
         if(id <= 0 ){
             errorMsg = "ID can't be null or empty.";
+        }
+        if(salary == 0){
+            errorMsg = "Salary should be more then 100";
         }
         if(email == null || email.equals("")){
             errorMsg = "Email ID can't be null or empty.";
@@ -98,7 +103,7 @@ public class UpdateEmployeeServlet extends HttpServlet {
             try {
                 Connection con = (Connection) getServletContext().getAttribute("DBConnection");
                 EmployeeDAO dao = new EmployeeDAO(con);
-                Employee emp = new Employee(id, firstname, lastname, email, birthday, department);
+                Employee emp = new Employee(id, firstname, lastname, email, salary, birthday, department);
                 System.out.println(emp);
                 dao.update(emp);
             } catch (ServletException e) {

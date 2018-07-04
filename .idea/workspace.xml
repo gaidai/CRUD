@@ -7,26 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be02f918-8b59-4912-97ed-e2d20a506ea1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/CheckEmailServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/CheckEmailServlet.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/CheckEmployeeServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/WEB-INF/classes/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/createEmployee.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/createEmployee.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/js/employees.js" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/js/employees.js" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Aimprosoft/updateEmployee.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Aimprosoft/updateEmployee.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/CheckEmployeeServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.class" afterPath="$PROJECT_DIR$/out/production/Aimprosoft/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java" />
       <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckEmployeeServlet.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckEmailServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.java" />
       <change beforePath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java" afterPath="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java" />
       <change beforePath="$PROJECT_DIR$/web/createEmployee.jsp" afterPath="$PROJECT_DIR$/web/createEmployee.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/departments.jsp" afterPath="$PROJECT_DIR$/web/departments.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/employees.jsp" afterPath="$PROJECT_DIR$/web/employees.jsp" />
       <change beforePath="$PROJECT_DIR$/web/js/employees.js" afterPath="$PROJECT_DIR$/web/js/employees.js" />
       <change beforePath="$PROJECT_DIR$/web/updateEmployee.jsp" afterPath="$PROJECT_DIR$/web/updateEmployee.jsp" />
     </list>
@@ -58,91 +46,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddEmployeeServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java">
+      <file leaf-file-name="EmployeeDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="132">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <marker date="1530662961131" expanded="true" signature="479:580" ph="INSERT INTO EMPLOYEE... " />
+                <marker date="1530662961131" expanded="true" signature="1387:1420" ph="DELETE FROM EMPLOYEE... " />
+                <marker date="1530662961131" expanded="true" signature="2032:2097" ph="SELECT * FRO... EMPLOYEE" />
+                <marker date="1530662961131" expanded="true" signature="3175:3289" ph="UPDATE EMPLOYEE... " />
+                <marker date="1530662961131" expanded="true" signature="4265:4303" ph="SELECT * FRO... EMPLOYEE" />
+                <marker date="1530662961131" expanded="true" signature="5022:5057" ph="SELECT * FRO... EMPLOYEE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="departments.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/departments.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="52" column="147" lean-forward="false" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="147" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AppExceptionHandler.java">
+      <file leaf-file-name="employees.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/employees.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckEmailServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckEmailServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employees.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/employees.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateEmployeeServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteDepartmentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/DeleteDepartmentServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeesServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/EmployeesServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateDepartmentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckDepartmentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -212,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/EmployeeFormServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/DepartmentDAO.java" />
         <option value="$PROJECT_DIR$/web/js/createEmployee.js" />
-        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java" />
         <option value="$PROJECT_DIR$/web/updateDepartment.jsp" />
         <option value="$PROJECT_DIR$/web/createDepartment.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
@@ -222,23 +158,24 @@
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/DepartmentsServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/DeleteEmployeeServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/EmployeesServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/DeleteDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/web/js/departments.js" />
-        <option value="$PROJECT_DIR$/web/employees.jsp" />
-        <option value="$PROJECT_DIR$/web/departments.jsp" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/css/alert.css" />
-        <option value="$PROJECT_DIR$/web/createEmployee.jsp" />
-        <option value="$PROJECT_DIR$/web/updateEmployee.jsp" />
-        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckEmployeeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java" />
         <option value="$PROJECT_DIR$/web/js/employees.js" />
+        <option value="$PROJECT_DIR$/web/createEmployee.jsp" />
+        <option value="$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/web/updateEmployee.jsp" />
+        <option value="$PROJECT_DIR$/web/departments.jsp" />
+        <option value="$PROJECT_DIR$/web/employees.jsp" />
       </list>
     </option>
   </component>
@@ -286,7 +223,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,8 +304,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -921,11 +858,14 @@
       <workItem from="1526948895310" duration="1008000" />
       <workItem from="1528507571015" duration="69000" />
       <workItem from="1530395101582" duration="4949000" />
+      <workItem from="1530491179260" duration="178000" />
+      <workItem from="1530586969461" duration="1493000" />
+      <workItem from="1530649206542" duration="3941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235217000" />
+    <option name="totallyTimeSpent" value="240829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -938,6 +878,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1934" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -949,20 +890,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40648648" sideWeight="0.5021322" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28175026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23452769" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19761129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18729989" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19370331" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5064516" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5064516" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -970,6 +911,38 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40648648" sideWeight="0.5021322" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28175026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35783783" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23452769" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19156884" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5064516" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5064516" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1105,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/modal.css" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,30 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/departments.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="164" lean-forward="false" selection-start-line="52" selection-start-column="164" selection-end-line="52" selection-end-column="164" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/createEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="46" column="94" lean-forward="true" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/updateEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="46" column="94" lean-forward="false" selection-start-line="46" selection-start-column="94" selection-end-line="46" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/updateDepartment.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
@@ -1196,19 +1138,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/employees.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="108" lean-forward="false" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="10" column="94" lean-forward="false" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,26 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <marker date="1526694946307" expanded="true" signature="641:732" ph="INSERT INTO EMPLOYEE... " />
-            <marker date="1526694946307" expanded="true" signature="1495:1528" ph="DELETE FROM EMPLOYEE... " />
-            <marker date="1526694946307" expanded="true" signature="2140:2205" ph="SELECT * FRO... EMPLOYEE" />
-            <marker date="1526694946307" expanded="true" signature="3242:3344" ph="UPDATE EMPLOYEE... " />
-            <marker date="1526694946307" expanded="true" signature="4277:4315" ph="SELECT * FRO... EMPLOYEE" />
-            <marker date="1526694946307" expanded="true" signature="5034:5069" ph="SELECT * FRO... EMPLOYEE" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/listener/AppContextListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,13 +1178,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AppExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="88">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
@@ -1277,57 +1191,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/CheckDepartmentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="374">
           <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/DeleteDepartmentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="198">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/EmployeesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/departments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateDepartmentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="616">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1339,10 +1218,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/models/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/EmployeesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/AddEmployeeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/servlets/UpdateEmployeeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="105" column="76" lean-forward="false" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/createEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="28" column="88" lean-forward="false" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/departments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/employees.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/updateEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="89" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sgaidai/aimprosoft/dao/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <marker date="1530662961131" expanded="true" signature="479:580" ph="INSERT INTO EMPLOYEE... " />
+            <marker date="1530662961131" expanded="true" signature="1387:1420" ph="DELETE FROM EMPLOYEE... " />
+            <marker date="1530662961131" expanded="true" signature="2032:2097" ph="SELECT * FRO... EMPLOYEE" />
+            <marker date="1530662961131" expanded="true" signature="3175:3289" ph="UPDATE EMPLOYEE... " />
+            <marker date="1530662961131" expanded="true" signature="4265:4303" ph="SELECT * FRO... EMPLOYEE" />
+            <marker date="1530662961131" expanded="true" signature="5022:5057" ph="SELECT * FRO... EMPLOYEE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/departments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="52" column="147" lean-forward="false" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/employees.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding />
         </state>
       </provider>

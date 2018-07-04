@@ -47,6 +47,7 @@ public class AddEmployeeServlet extends HttpServlet {
         String email = request.getParameter("email");
         String firstname = request.getParameter("firstname");
         String lastname = request.getParameter("lastname");
+        int salary = Integer.parseInt(request.getParameter("salary"));
         int department = Integer.parseInt(request.getParameter("departmentid"));
         SimpleDateFormat  formatter = new SimpleDateFormat ("dd-MM-yyyy");
         String errorMsg = null;
@@ -66,7 +67,10 @@ public class AddEmployeeServlet extends HttpServlet {
             errorMsg = "Lastname can't be null or empty.";
         }
         if(department == 0){
-            errorMsg = "Department can't be null or empty.";
+            errorMsg = "Department can't be 0 or empty.";
+        }
+        if(salary == 0){
+            errorMsg = "Salary should be more then 100";
         }
         // compare birthday with current date
         Date today = new Date();
@@ -83,7 +87,7 @@ public class AddEmployeeServlet extends HttpServlet {
             try{
                 Connection con = (Connection) getServletContext().getAttribute("DBConnection");
                 EmployeeDAO dao = new EmployeeDAO(con);
-                Employee emp = new Employee(firstname,lastname,email,birthdate,department);
+                Employee emp = new Employee(firstname,lastname,email,salary,birthdate,department);
                 dao.create(emp);
             }catch (ServletException e){
                 response.sendError(response.SC_BAD_REQUEST, "DB exception");

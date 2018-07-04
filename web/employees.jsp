@@ -32,8 +32,9 @@
                                     <th>ID</th>
                                     <th>FirstName</th>
                                     <th>LastName</th>
-                                    <th>Birthdate</th>
                                     <th>Email</th>
+                                    <th>Salary</th>
+                                    <th>Birthdate</th>
                                     <th>Updated</th>
                                 </tr>
                             </thead>
@@ -43,8 +44,9 @@
                                         <td><c:out value="${emp.id}" /></td>
                                         <td><c:out value="${emp.firstname}" /></td>
                                         <td><c:out value="${emp.lastname}" /></td>
-                                        <td><c:out value="${emp.birthdate}" /></td>
                                         <td><c:out value="${emp.email}" /></td>
+                                        <td><c:out value="${emp.salary}" /></td>
+                                        <td><c:out value="${emp.birthdate}" /></td>
                                         <td data-toggle="tooltip" data-placement="right" title="Created: ${emp.created}"><c:out value="${emp.updated}" /></td>
                                     </tr>
                                 </c:forEach>
@@ -54,11 +56,11 @@
                 </c:choose>
             </div>
             <div class="col-1">
-                <a class="crud-link link-add" href="addEmployee?id=${requestScope.id}"><div class="btn-add">Add</div></a>
+                <a class="crud-link link-add" href="addEmployee?id=${requestScope.id}"><div class="btn-add" data-toggle="tooltip" data-placement="right" title="Добавить">Add</div></a>
 
                 <div class="crud-nav">
-                    <a class="crud-link link-edit"><div  class="btn-edit">Edit</div></a>
-                    <a class="crud-link link-delete"><div class="btn-delete">Delete</div></a>
+                    <a class="crud-link link-edit"><div  class="btn-edit"  data-toggle="tooltip" data-placement="right" title="Редактировать">Edit</div></a>
+                    <a class="crud-link link-delete"><div class="btn-delete"  data-toggle="tooltip" data-placement="right" title="Удалить">Delete</div></a>
                 </div>
 
             </div>

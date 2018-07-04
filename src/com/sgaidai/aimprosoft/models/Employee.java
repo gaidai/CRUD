@@ -15,27 +15,30 @@ public class Employee implements Serializable {
     private int department;
     private Date created;
     private Date updated;
+    private int salary;
 
     public Employee() {
     }
 
-    public Employee(String firstname, String lastname,  String email, Date birthdate, int department) {
+    public Employee(String firstname, String lastname,  String email,int salary, Date birthdate, int department) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.department = department;
         this.email = email;
         this.birthdate = birthdate;
+        this.salary = salary;
     }
-    public Employee(int id, String firstname, String lastname,  String email, Date birthdate, int department) {
+    public Employee(int id, String firstname, String lastname,  String email,int salary, Date birthdate, int department) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.department = department;
         this.email = email;
         this.birthdate = birthdate;
+        this.salary = salary;
     }
 
-    public Employee(int id, String firstname, String lastname, String email, Date birthdate, int department, Date created, Date updated) {
+    public Employee(int id, String firstname, String lastname, String email,int salary, Date birthdate, int department, Date created, Date updated) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -44,6 +47,7 @@ public class Employee implements Serializable {
         this.department = department;
         this.created = created;
         this.updated = updated;
+        this.salary = salary;
     }
 
     public int getId() {
@@ -110,6 +114,10 @@ public class Employee implements Serializable {
         this.birthdate = birthdate;
     }
 
+    public int getSalary() { return salary;  }
+
+    public void setSalary(int salary) {  this.salary = salary;  }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -121,6 +129,7 @@ public class Employee implements Serializable {
                 ", department=" + department +
                 ", created=" + created +
                 ", updated=" + updated +
+                ", salary=" + salary +
                 '}';
     }
 }

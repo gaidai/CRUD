@@ -26,7 +26,7 @@
                             <span>firstname</span>
                         </div>
                         <div class="notification-input">
-                            <div class="notification-message ">&nbsp; Firstname: first 3 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
+                            <div class="notification-message ">&nbsp; Firstname: first 2 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
                         </div>
                     </div>
                     <div class="row input-line">
@@ -35,7 +35,7 @@
                             <span>lastname</span>
                         </div>
                         <div class="notification-input">
-                            <div class="notification-message ">&nbsp; Lastname: first 3 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
+                            <div class="notification-message ">&nbsp; Lastname: first 2 symbols - only letters allowed, next 0-17 symbols - letters, digits and a space .</div>
                         </div>
                     </div>
                     <div class="row input-line">
@@ -45,6 +45,15 @@
                         </div>
                         <div class="notification-input">
                             <div class="notification-message ">&nbsp; Invalid Email, check it! </div>
+                        </div>
+                    </div>
+                    <div class="row input-line">
+                        <div class="col-12" >
+                            <input type="text" maxlength="12" value="${requestScope.salary}" minlength="3" class="text" name="salary">
+                            <span>salary</span>
+                        </div>
+                        <div class="notification-input">
+                            <div class="notification-message ">&nbsp; Salary should be larger then 100 .</div>
                         </div>
                     </div>
                     <div class="row input-line">
